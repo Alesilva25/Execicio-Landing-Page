@@ -112,3 +112,103 @@ body {
     background-color: #011927;
     color: #fff;
 }
+
+.links {
+    display: flex;
+    list-style: none;
+    gap: 5rem;
+}
+
+.links li {
+    color: #fff;
+    cursor: pointer;
+}
+
+.links li:hover {
+    color: #5bacdf;
+}
+
+.links li .btn {
+    background-color: #5bacdf;
+    padding: 0.5rem 1rem;
+    border-radius: 1.5rem;
+    cursor: pointer;
+}
+
+.links li .btn:hover {
+    background-color: #011927;
+    color: #fff;
+}
+
+aside {
+    display: none;
+}
+
+@media screen and (max-width: 700px) {
+    .navbar {
+        display: none;
+    }
+
+    .links {
+        display: block;
+    }
+
+    .logo {{
+        margin-right: 15rem;
+    }}
+
+    aside {
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        overflow: hidden;
+    }
+
+    #barra-menu {
+        width: 300px;
+        height: 100svh;
+        transform: 0.3 all;
+    }
+
+    .icon-menu ion-icon {
+        color: #fff;
+        width: 45px;
+        height: 45px;
+        margin-right: 1.5rem;
+        margin-top: 2rem;
+    }
+
+    #barra-menu ul {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 2rem;
+        line-height: 3rem;
+    }
+
+    #barra-menu ul li a {
+        color: #011927;
+        text-decoration: none;
+        font-size: 1rem;
+        width: 100%;
+    }
+
+    #barra-menu ul li a:hover {
+        padding: 8px;
+        border-radius: 15px;
+        background-color: #5bacdf;
+    }
+
+    .C-icon {
+        margin-top: 50%;
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        overflow: hidden;
+    }
+}
