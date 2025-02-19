@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    background-color: rgb(25, 46, 58);
+}
+
+.container-cabecalho {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3rem;
+    width: 100%;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 40px;
+    height: auto;
+}
+
+.logo h1 {
+    color: #fff;
+    font-size: 1.55rem;
+    font-weight: 700;
+    margin-left: 0.8rem;
+}
+
+.navbar {
+    display: flex;
+    list-style: none;
+    gap: 5rem;
+}
+
+.navbar li {
+    color: #fff;
+    cursor: pointer;
+}
+
+.navbar li:hover {
+    color: #5bacdf;
+}
+
+.navbar li .btn {
+    background-color: #5bacdf;
+    padding: 0.5rem 1rem;
+    border-radius: 1.5rem;
+    cursor: pointer;
+}
+
+.navbar li .btn:hover {
+    background-color: #011927;
+    color: #fff;
+}
+
+.conteudo {
+    display: flex;
+    max-width: 100%;
+    margin-top: 5rem;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.direita img{
+    max-width: 100%;
+    width: 700px;
+    height: auto;
+}
+
+.esquerda {
+    max-width: 100%;
+}
+
+.title h1{
+    font-size: 50px;
+    color: #ccc;
+    max-width: 600px;
+}
+
+.paragrafo {
+    color: #ccc;
+    line-height: 2.5rem;
+    max-width: 600px;
+}
+
+.cta button {
+    color: #fff;
+    background-color: #5bacdf;
+    padding: 0.8rem 1.3rem;
+    font-size: 1.3rem;
+    border-radius: 0.8rem;
+    border: none;
+    margin-top: 1.5rem;
+    cursor: pointer;
+}
+
+.cta button:hover {
+    background-color: #011927;
+    color: #fff;
+}
